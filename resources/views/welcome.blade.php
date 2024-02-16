@@ -37,7 +37,7 @@
                 </div>
             @endif
             <div>
-                <h2 class="text-light">kusims</h2>
+                <h2 class="text-light">KUSIMS</h2>
             </div>
         </div>
     </body>

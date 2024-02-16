@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('year');
             $table->string('semester');
+            $table->string('user_id');
             $table->timestamps();
         });
     }

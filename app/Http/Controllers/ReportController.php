@@ -27,6 +27,7 @@ class ReportController extends Controller
         $report =new Report;
         $report->year=$request->input('year');
         $report->semester=$request->input('semester');
+        $report->user_id=$request->input('user_id');
         $report->save();
 
         return redirect(route('dashboard'))->with('success','You have reported for this Semester');
